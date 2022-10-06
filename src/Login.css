@@ -1,0 +1,103 @@
+.login{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 37%;
+    margin: auto;
+    padding: 2%;
+    margin-top: 8%;
+    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+    background-color: #22304C;
+    border: none;
+}
+
+.toggleButton{
+    cursor: pointer !important;
+    color: #4cc8d9 !important;
+}
+
+.password__div{
+    display: flex;
+    align-items: center;
+}
+
+.login__input{
+    width: 81%;
+    height: 25px;
+    margin: 2%;
+    border-radius: 17px;
+    text-align: center;
+    border: none;
+    outline: none;
+    padding: 1%;
+    font-size: 15px;
+    cursor: pointer;
+    
+}
+
+.login__buttons{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-left: -7%;
+
+}
+
+.login__signIn__button{
+    background-color: #4cc8d9;
+    color: white;
+    width: 20%;
+    /* height: 42px; */
+    margin: 2%;
+    padding: 1%;
+    font-size: 18px;
+    border: none;
+    border-radius: 22px;
+    cursor: pointer;
+}
+
+.login__signIn__button:hover{
+    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+}
+
+.login__logIn__button{
+    width: 20%;
+    /* height: 42px; */
+    margin: 2%;
+    padding: 1%;
+    font-size: 18px;
+    border: none;
+    border-radius: 22px;
+    cursor: pointer;
+    background-color: #4cc8d9;
+    color: white;
+}
+
+.login__logIn__button:hover{
+    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+}
+
+
+
+@media screen and (max-width: 830px) {
+    .login__buttons {
+     display: flex;
+     flex-direction: column;
+    }
+  }
+
+
+  @media only screen and (max-width: 760px) {
+
+    .login{
+        width: 60%;
+    }
+    .login__logIn__button{
+        width: 35%;
+    }
+
+    .login__signIn__button{
+        width: 35%;
+    }
+  }

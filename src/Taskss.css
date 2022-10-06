@@ -1,0 +1,446 @@
+.tasks__backgroundImage{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.logout__button{
+    width: 100%;
+    /* margin: auto; */
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 48%;
+    margin-top: 2%;
+    margin-bottom: -6%;
+}
+
+.logout__button__forResponsive{
+    padding: 2%;
+    background-color: #4cc8d9;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+}
+
+.tasks__left{
+    position: absolute;
+    top: 1px;
+    margin-left: 8%;
+}
+
+.task__mainHeading{
+    display: flex;
+    flex-direction: column;
+}
+
+.tasks__firstHeading{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-top: 15%;
+    margin-left: -84%;
+
+}
+
+.tasks__secondHeading{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-top: 0%;
+
+}
+
+.tasks__details{
+    background-color: #0C9FB3;
+    padding: 6%;
+    width: 100%;
+    border-radius: 12px;
+}
+
+
+.tasks__div{
+
+}
+
+.tasks__div__details{
+    display: flex;
+    flex-direction: column;
+}
+
+.tasks__div__heading{
+
+    background-color: #4cc8d9;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    padding: 3%;
+    border-radius: 8px;
+    width: 100%;
+}
+
+
+.task__div__top{
+    display: flex;
+    align-items: center;
+}
+
+.tasks__div__bottom{
+    display: flex;
+}
+
+.tasks__div__bottom_input{
+    border: none;
+    border-radius: 40px;
+    font-size: 15px;
+    text-align: center;
+    width: 55%;
+    margin-right: 16%;
+}
+
+.tasks__div__bottom__submit__button{
+    padding: 2%;
+    background-color: white;
+    color: #706e6e;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    margin-left: -15px;
+}
+
+.tasks__div__details__arrows{
+    width: 50px;
+    height: 50px;
+    margin-left: 4%;
+}
+
+.tasks__div__checkFollower{
+    border: none;
+    border-radius: 40px;
+    font-size: 15px;
+    text-align: center;
+    width: 100%;
+    /* margin-right: 16%; */
+    height: 36px;
+}
+
+.follow__div{
+    display: flex;
+    flex-direction: column;
+}
+
+.follow__div__inputAndbutton{
+    display: flex;
+}
+
+.tasks__div__checkFollower__button{
+    padding: 2%;
+    background-color: white;
+    color: #706e6e;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    margin-left: 20%;
+    margin-right: -41%;
+}
+
+
+.joinTelegram__continueButton{
+    padding: 2%;
+    background-color: white;
+    color: #706e6e;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    margin-left: 16%;
+    margin-right: -15%;
+}
+
+
+.joinTelegram__link{
+    margin-left: -24%;
+}
+
+
+.joinTelegram__input{
+    border: none;
+    border-radius: 40px;
+    font-size: 15px;
+    text-align: center;
+    width: 82%;
+    /* margin-right: 16%; */
+    height: 36px;
+    margin-top: 9px;
+    margin-bottom: 2px;
+}
+
+
+.joinTelegram__button{
+    padding: 2%;
+    background-color: white;
+    color: #706e6e;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    margin-left: 25%;
+    margin-top: 1%;
+    /* margin-right: -41%; */
+    width: 25%;
+}
+
+.retweetInput{
+    border: none;
+    border-radius: 40px;
+    font-size: 15px;
+    text-align: center;
+    width: 82%;
+    /* margin-right: 16%; */
+    height: 36px;
+    margin-top: 9px;
+    margin-bottom: 2px;
+}
+
+
+.retweetButton{
+    padding: 2%;
+    background-color: white;
+    color: #706e6e;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    margin-left: 25%;
+    margin-top: 1%;
+    /* margin-right: -41%; */
+    width: 25%;
+}
+
+.tweet__div{
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+.tweetInput{
+    border: none;
+    border-radius: 40px;
+    font-size: 15px;
+    text-align: center;
+    width: 82%;
+    /* margin-right: 16%; */
+    height: 36px;
+    margin-top: 9px;
+    margin-bottom: 2px;
+}
+
+.tweetButton{
+    padding: 2%;
+    background-color: white;
+    color: #706e6e;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    margin-left: 25%;
+    margin-top: 1%;
+    /* margin-right: -41%; */
+    width: 25%;
+}
+
+
+.buyButton{
+    border: none;
+    border-radius: 5px;
+    padding: 2%;
+    padding-left: 6%;
+    padding-right: 6%;
+    margin-left: -10%;
+    /* color: white; */
+    background-color: #22304C;
+}
+
+
+.butButton__link{
+    color: white;
+}
+
+
+/* second box */
+
+.tasks__div__top{
+    display: flex;
+    align-items: center;
+}
+
+
+
+.telegramInput{
+    display: flex;
+    flex-direction: column;
+}
+
+.openretweetinput{
+    display: flex;
+    flex-direction: column;
+}
+
+.tasks__right{
+    position: absolute;
+    top: 19%;
+    right: 12%;
+}
+
+.task__right__mangraphic{
+    position: absolute;
+    top: 26%;
+    margin-left: -44%;
+}
+
+.buyButton__link{
+    color: white;
+}
+
+@media only screen and (max-width: 1250px) {
+    .tasks__right{
+        display: none;
+    }
+
+    .tasks__div__heading {
+        font-size: 17px;
+    }
+
+    .tasks__firstHeading {
+        margin-left: -80%;
+        font-size: 22px;
+    }
+
+    .tasks__secondHeading {
+        font-size: 22px;
+
+    }
+
+    .tasks__div__bottom__submit__button{
+        font-size: 12px;
+        margin-left: -39px;
+    }
+
+    .tasks__div__checkFollower__button {
+        padding: 1%;
+        margin-right: 2%;
+        font-size: 12px;
+    }
+
+    .retweetInput{
+        width: 75%;
+        font-size: 14px;
+    }
+
+    .tweetInput{
+        width: 77%;
+        font-size: 14px;
+    }
+
+  }
+
+
+  @media only screen and (max-width: 540px) {
+    .tasks__div__heading {
+        font-size: 14px;
+    }
+
+    .tasks__firstHeading {
+        font-size: 20px;
+    }
+
+    .tasks__secondHeading {
+        font-size: 20px;
+
+    }
+
+    .tasks__div__bottom_input{
+        width: 42%;
+        font-size: 10px;
+    }
+
+    .tasks__div__bottom__submit__button {
+        margin-left: -10%;
+    }
+
+    .tasks__div__checkFollower {
+        width: 113px;
+        height: 28px;
+        font-size: 11px;
+    }
+
+    .tasks__div__checkFollower__button {
+       
+        margin-right: -61px;
+        font-size: 11px;
+    }
+
+    .joinTelegram__continueButton{
+        margin-right: -8%;
+        font-size: 12px;
+    }
+
+    .retweetInput {
+        width: 79%;
+        font-size: 10px;
+        height: 26px;
+    }
+
+    .retweetButton{
+        font-size: 11px;
+    }
+
+    .tweetInput {
+        width: 77%;
+        font-size: 11px;
+        height: 25px;
+    }
+
+    .tweetButton{
+        font-size: 11px;
+    }
+
+  }
+
+  @media only screen and (max-width: 540px) {
+  .tasks__div__heading {
+    font-size: 12px;
+}
+
+  .tasks__div__details__arrows {
+    width: 44px;
+    height: 34px;
+    margin-left: 4%;
+}
+
+  }
+
+  @media only screen and (max-width: 540px) {
+
+  .tasks__details {
+   width: 85%;
+}
+
+.logout__button__forResponsive{
+    margin-right: 37%;
+    font-size: 11px;
+}
+
+  }

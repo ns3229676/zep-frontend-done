@@ -1,0 +1,109 @@
+.tasks{
+    background-color: #fbf4f4;
+    width: 77%;
+    margin: auto;
+    padding: 1%;
+    margin-top: 5%;
+    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+}
+
+.tasks__div{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+
+.tasks__div__heading{
+    padding: 1%;
+    font-size: 20px;
+    margin-right: 24%;
+    margin-left: 15%;
+    margin-top: 0%;
+    
+}
+
+
+.logout__button__forResponsive{
+
+    border: none;
+    padding: 1%;
+    background-color: #fbf4f4;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.logout__button__forResponsive:hover{
+
+    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+}
+
+.buy{
+    margin-right: 31%;
+
+}
+
+.input_wallet_address{
+    width: 10%;
+    height: 35px;
+    border-radius: 14px;
+    border: none;
+    font-size: 14px;
+    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+    background-color: white;
+    margin-left: 30px;
+    text-align: center;
+    outline: none;
+}
+
+
+.tasks__div__button{
+    width: 10%;
+    height: 35px;
+    border-radius: 14px;
+    border: none;
+    font-size: 16px;
+    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+    background-color: white;
+}
+
+
+.task__div__icon{
+    margin-left: 1%;
+    width: 40px !important;
+    height: 29px !important;
+    background-color: white;
+    border-radius: 7px;
+}
+
+
+.zepcoinButton{
+    margin-left: -16px;
+}
+
+.tasks__div__links{
+    text-decoration: none;
+    font-size: 15px;
+    color: gray;
+}
+
+
+
+.tasks__points__block{
+    border-radius: 3px;
+    background-color: white;
+    margin-left: 2%;
+    padding: 2px;
+    /* font-size: 16px; */
+    color: green;
+    font-weight: 500;
+}
+
+
+.telegramInput{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
